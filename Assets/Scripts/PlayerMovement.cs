@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    public float speed = 7f;
-    public float jumpForce = 12f;
+    public float speed = 20f;
+    public float jumpForce = 16f;
     public Animator anim;
     public GameObject handgun;
     public Transform shootPoint;
